@@ -27,9 +27,18 @@
 
 html, body {
     font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
     margin: 0; padding: 0;
     height: 100%; width: 100%;
+    scroll-behavior: smooth;
 }
+
+a, button {
+    outline: none;
+}
+
+
+/* Intro banner */
 
 .intro {
     margin: auto;
@@ -43,19 +52,75 @@ html, body {
     .intro-inner {
         display: table-cell;
         vertical-align: middle;
-        width: 100%; max-width: none;
+        width: 100%; max-width: 100%;
     }
 
     .intro-content {
         width: auto;
+        text-align: center;
     }
 
-    .intro-content .intro-h1 {
-        width: auto;
+    .intro-content span.intro-h1 h1 {
+        margin: auto;
+        width: 280px;
         padding: 15px;
-        background-color: #212121;
-        color: white;
-        font-size: 3em;
+        background-color: #FAFAFA;
+        color: #212121;
+        font-size: 1.7em;
         font-weight: 700;
-        letter-spacing: -0.1em;
+        letter-spacing: -0.05em;
     }
+
+        a.intro-btn {
+            color: #212121;
+            font-weight: 700;
+            letter-spacing: -0.05em;
+            text-decoration: none;
+            padding: 5px;
+            border-bottom: 3px solid transparent;
+            transition: 0.3s;
+        }
+
+            a.intro-btn:hover {
+                border-bottom: 3px solid #B71C1C;
+            }
+
+
+/* Main content */
+
+.main-content {
+    margin: 0; padding: 0;
+    width: 100%;
+}
+
+    .main-intro {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .main-intro h2 {font-size: 2em; font-weight: 900;}
+
+    .main-body {
+        width: 100%;
+        margin-top: 30px;
+        font-size: 1em;
+    }
+
+    .box {
+        max-width: 45%;
+        padding-bottom: 30px;
+    }
+
+    .main-body-left {left: 0;}
+    .main-body-right {margin-left: 55%;}
+    .main-body-mid {margin: auto; text-align: center;}
+
+
+/* Footer */
+
+.footer {
+    bottom: 0; display: table;
+    width: 100%; height: 30%;
+    padding: 30px;
+    margin-top: 50px;
+    background-color: #E0E0E0;
+}
