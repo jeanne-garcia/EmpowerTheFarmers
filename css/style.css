@@ -1,30 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Asap:400,700');
 
-.palette {
-    color: /* reds */
-    #FFEBEE
-    #FFCDD2
-    #EF9A9A
-    #E57373
-    #EF5350
-    #F44336
-    #E53935
-    #D32F2F
-    #C62828
-    #B71C1C;
-    color: /* greys */
-    #FAFAFA
-    #F5F5F5
-    #EEEEEE
-    #E0E0E0
-    #BDBDBD
-    #9E9E9E
-    #757575
-    #616161
-    #424242
-    #212121;
-}
-
 html, body {
     font-family: 'Asap', sans-serif;
     font-size: 13px;
@@ -87,11 +62,20 @@ a, button {
             }
 
 
+.the-bar {
+    z-index: -9999999;
+    width: 50%;
+    height: 100%;
+    border-right: 3px solid #B71C1C;
+    position: absolute;
+}
+
 /* Main content */
 
 .main-content {
     margin: 0; padding: 0;
     width: 100%;
+    z-index: 1;
 }
 
     .main-intro {
@@ -112,11 +96,12 @@ a, button {
     .box {
         width: 100%;
         padding-bottom: 50px;
+        background-color: #FAFAFA;
     }
 
     .main-body-left {text-align: right; margin-right: 45%; padding-left: 50px; width: 45%;}
     .main-body-right {margin-left: 55%; padding-right: 50px; width: 45%;}
-    .main-body-mid {margin: auto; text-align: center; width: 45%;}
+    .main-body-mid {margin: auto; text-align: center; width: 45%}
 
         img.main-img {
             margin-bottom: 20px !important;
@@ -137,6 +122,7 @@ a, button {
     margin-top: 50px;
     font-size: 0;
     width: 100%;
+    z-index: 1;
 }
 
     .grid-row {
@@ -155,6 +141,7 @@ a, button {
 .support {
     margin-top: 30px;
     text-align: center;
+    z-index: 1;
 }
 
     .support-text {
@@ -195,6 +182,7 @@ a, button {
     padding: 30px;
     margin-top: 50px;
     background-color: #E0E0E0;
+    z-index: 1;
 }
 
     .footer-content {

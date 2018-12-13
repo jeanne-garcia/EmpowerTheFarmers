@@ -44,6 +44,7 @@ a, button {
     position: sticky;
     display: table;
     top: 0;
+    z-index: 99999;
 }
 
     .navigation-links {
@@ -88,8 +89,49 @@ a, button {
 
     .main-content {
         max-width: 100%;
+        margin-top: 30px;
     }
 
+        .main-content .col-sm {
+            background-color: #EEEEEE;
+            margin-right: 15px;
+            padding: 8px;
+            border-bottom: 3px solid #B71C1C;
+        }
+
+            .main-content .col-sm:last-of-type {
+                margin-right: 0px;
+            }
+
+@media screen and (max-width: 800px) {
+    .main-content .col-sm {
+        margin-right: 0px !important;
+    }
+}
+
+    .box-title {
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 1.3em;
+        padding-left: 5px;
+    }
+
+    .box-list {
+        margin-top: 10px;
+    }
+
+    ul.box-list {
+        list-style-type: none;
+    }
+
+    ul.box-list li {
+        margin-left: -30px;
+        margin-right: 10px;
+        background-color: white;
+        padding: 10px;
+        border-bottom: 2px solid #616161;
+        margin-bottom: 10px;
+    }
 
 /* Other Stuff */
 
