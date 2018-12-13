@@ -18,7 +18,7 @@ a, button {
 
 .intro {
     margin: auto;
-    height: 100%; width: 100%;
+    height: 70%; width: 100%;
     background: url('../images/header.jpg');
     background-size: cover;
     display: table; top: 0;
@@ -48,7 +48,7 @@ a, button {
     }
 
         a.intro-btn {
-            color: #212121;
+            color: #FAFAFA;
             font-weight: 700;
             letter-spacing: -0.05em;
             text-decoration: none;

@@ -74,9 +74,14 @@ a, button {
 
 /* Main Content */
 
+.team-img {
+    width: 100%;
+    height: 20%;
+    margin-top: 50px;
+}
+
 .main {
     margin-top: 30px;
-    padding: 30px;
 }
 
     .main-title {
@@ -85,11 +90,13 @@ a, button {
         font-size: 2em;
         font-weight: 700;
         margin-bottom: 10px;
+        padding-left: 30px;
     }
 
     .main-content {
         max-width: 100%;
         margin-top: 30px;
+        padding: 30px;
     }
 
         .main-content .col-sm {
@@ -131,6 +138,7 @@ a, button {
         padding: 10px;
         border-bottom: 2px solid #616161;
         margin-bottom: 10px;
+        overflow: wrap;
     }
 
 /* Other Stuff */
