@@ -1,2 +1,2 @@
 # #EmpowerTheFarmers
-Active on [EmpowerTheFarmers.ml](http://empowerthefarmers.ml/)
+Active on [EmpowerTheFarmers.now.sh](https://empowerthefarmers.now.sh/)
